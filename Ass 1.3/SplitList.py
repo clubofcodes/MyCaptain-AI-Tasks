@@ -1,5 +1,5 @@
-fname = input("Enter file name in the same dir : ") #input filename by User. 
-fh = open(fname)             #fh=file handler.
+fname = input("Enter file name : ") #input filename by User. 
+fh = open(f"F:\\uni\RKU\\5th Sem\Python Programming II - CE523\ASS Py Files\{fname}")             #fh=file handler.
 lst = []                     #creates an empty list constructor.
 for line in fh:
    line.rstrip()             #strips all unnecessary spaces.

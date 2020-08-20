@@ -1,5 +1,5 @@
-fname = input("Enter file name in the same dir : ")
-fh = open(fname)
+fname = input("Enter file name : ")
+fh = open(f"F:\\uni\RKU\\5th Sem\Python Programming II - CE523\ASS Py Files\{fname}")
 number_of_words = 0
 number_of_characters = 0
 for line in fh:

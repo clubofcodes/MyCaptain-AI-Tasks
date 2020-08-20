@@ -20,5 +20,5 @@ class toplvl:
             print(t)
         f.close()
 if __name__ == "__main__":
-    rf =toplvl('data.txt')
+    rf =toplvl('F:\\uni\RKU\\5th Sem\Python Programming II - CE523\ASS Py Files\data.txt')
     rf.read_file()
