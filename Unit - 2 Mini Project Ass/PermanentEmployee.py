@@ -12,8 +12,3 @@ class Per_Emp:
             else:
                   self.basic_salary = self.basic_salary
             return self.basic_salary
-            
-
-                  
-                  
-            

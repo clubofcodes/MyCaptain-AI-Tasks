@@ -1,6 +1,8 @@
+#1
+from PermanentEmployee import Per_Emp
 from connect import myconnect
 class Employee:
-      
+
       _empname=""
       _emptype=""
       _empemail=""
@@ -11,7 +13,7 @@ class Employee:
             self._empemail=input("enter email: ")
             self._empmob=input("enter mobile no: ")
             self._emptype = input("enter type: ")
-            self._empexp = int(input("enter experience"))
+            self._empexp = int(input("enter experience: "))
             self._empsalary = self.getsalary()
             
       def getsalary(self):
@@ -22,6 +24,13 @@ class Employee:
                   print("Invalid Employee. Please enter only 'p' or 'P'")
                   
       #3
+      @staticmethod
+      def addnote():
+            note = input("Enter a note : ")
+            notef=open("note.txt","a+")
+            notef.write("\n")
+            notef.write(note)
+            notef.close()
                   
 print("1. Add Emp")
 print("2. Display Emp")
@@ -38,4 +47,3 @@ elif choice==3:
       Employee.addnote()
 else:
       print("invalid choice")
-      
