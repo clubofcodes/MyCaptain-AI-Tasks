@@ -7,5 +7,5 @@ e_no = []
 for line in file:
     e_no.append(line)
 for i in e_no:
-    print(i)
+    print(i.group())
 f.close()

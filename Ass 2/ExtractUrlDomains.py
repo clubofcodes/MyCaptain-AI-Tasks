@@ -17,7 +17,7 @@ class toplvl:
         for l in Tldfile:
             topdom.append(l)
         for t in topdom:
-            print(t)
+            print(t.group())
         f.close()
 if __name__ == "__main__":
     rf =toplvl('F:\\uni\RKU\\5th Sem\Python Programming II - CE523\ASS Py Files\data.txt')
