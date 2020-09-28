@@ -1,10 +1,10 @@
-# name, age = "Disha", 19
-# name2 = "Payal"
-# name_space = "Disha "
+# name, age = "Hellion", 21
+# name2 = "Rahul"
+# name_space = "Rahul "
 # print(name + str(3))
-# print(name + str("Buthki"))
-# print(name+" "+str("Buthki"))
-# print(name,str("Buthki"))
+# print(name + str("RJ"))
+# print(name+" "+str("RJ"))
+# print(name,str("RJ"))
 # print("\U0001F487")
 # print(name_space*3, age)
 # name, age = input("Enter buthki... : ").split()
