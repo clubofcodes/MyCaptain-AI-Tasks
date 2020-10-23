@@ -4,6 +4,10 @@ stud = {
     'en_no.': ['18SOEIT11009', '19SOEIT13001', '18SOEIT11006'], 
     'email': ['rjagetiya780@rku.ac.in', 'dj3750@rku.ac.in', 'dshukla780@rku.ac.in']
 }
+# df = pd.DataFrame(stud)
+# print(df.email)
+
+
 df = pd.DataFrame(stud)
 print("Default Dataframe :\n",df)
 
